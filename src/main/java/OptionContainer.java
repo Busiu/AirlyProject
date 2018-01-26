@@ -17,7 +17,7 @@ public class OptionContainer {
     @Option(name = "--api-key", usage = "Klucz uwierzytelniajacy")
     private String apiKey = null;
 
-    @Option(name = "--sensorId", usage = "Identyfikator sensora")
+    @Option(name = "--sensor-id", usage = "Identyfikator sensora")
     private Integer sensorId = null;
 
     @Option(name = "--history", usage = "Czy chcemy wyswietlac historie, czy nie")
